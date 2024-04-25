@@ -78,7 +78,7 @@ int main(int argc, char* argv[]) {
 
     printf("%s Got a handle to the thread(%ld)\n", k, TID);
 
-    printf("%s Cleaning up...", i);
+    printf("%s Cleaning up.", i);
     CloseHandle(hProcess);
     CloseHandle(hThread);
     return EXIT_SUCCESS;
